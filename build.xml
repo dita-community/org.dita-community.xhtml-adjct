@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="org.dita-community.xhml-adjct">
+
+  <!-- Use dc-preprocess instead normal preprocess -->
+  <target name="dita2xhtml-adjct"
+      depends="
+      build-init, 
+      dc-preprocess, 
+      dita.map.xhtml, 
+      copy-css , 
+      dita.topics.xhtml, 
+      dita.inner.topics.xhtml, 
+      dita.outer.topics.xhtml
+      ">
+    </target>
+
+</project>

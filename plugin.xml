@@ -1,0 +1,14 @@
+<plugin id="org.dita-community.xhtml-adjct">
+  <!-- 
+    
+    Run normal XHTML transform but using adjust-copy-to preprocessing
+    extensions.
+    -->
+  <feature extension="package.support.name" value="Eliot Kimber"/>
+  <feature extension="package.support.email" value="ekimber@contrext.com"/>    
+  
+  
+  <feature extension="dita.conductor.transtype.check" value="xhtml-adjct" type="txt"/>
+  <feature extension="dita.conductor.target.relative" file="build.xml"/>
+  
+</plugin>
