@@ -7,6 +7,9 @@
   <feature extension="package.support.name" value="Eliot Kimber"/>
   <feature extension="package.support.email" value="ekimber@contrext.com"/>    
   
+  <require plugin="org.dita-community.preprocess-extensions"/>
+  <require plugin="org.dita.xhtml"/>
+  
   
   <feature extension="dita.conductor.transtype.check" value="xhtml-adjct" type="txt"/>
   <feature extension="dita.conductor.target.relative" file="build.xml"/>
